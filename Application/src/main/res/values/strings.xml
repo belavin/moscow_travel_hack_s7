@@ -3,7 +3,7 @@
 
 <resources>
 
-    <string name="btnCapture">capture</string>
+    <string name="btnCapture"></string>
     <string name="need_camera_permissions">Приложению необходимо внешнее хранилище</string>
 
 </resources>
