@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+    <string name="btnCapture">capture</string>
+    <string name="need_camera_permissions">Приложению необходимо внешнее хранилище</string>
+
+</resources>
