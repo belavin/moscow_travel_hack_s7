@@ -24,42 +24,32 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/button_add_activities"
+                    android:id="@+id/button_znak"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Добавить активность" />
-            </LinearLayout>
+                    android:background="@drawable/component_znak" />
 
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ВЗЯТЬ С СОБОЙ"
+                        android:textSize="32dp" />
 
-                <Button
-                    android:id="@+id/button_transfer"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/active1"
-                    android:layout_weight="1" />
-
-                <Button
-                    android:id="@+id/button_ekskurs"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/active1"
-                    android:layout_weight="1" />
-
-                <Button
-                    android:id="@+id/button_rasvlechen"
-                    android:layout_width="wrap_content"
-                    android:background="@drawable/active1"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1" />
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Тут самые важные"
+                        android:textSize="18dp" />
+                </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
@@ -67,25 +57,56 @@
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
 
-                <Button
-                    android:id="@+id/button_meropriatija"
+                <CheckBox
+                    android:id="@+id/checkBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ПАСПОРТ" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/checkBox3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1" />
 
-                <Button
-                    android:id="@+id/button_masterclass"
+                <TextView
+                    android:id="@+id/textView7"
                     android:layout_width="wrap_content"
-                    android:background="@drawable/active2"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ДЕНЬГИ" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/checkBox4"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1" />
 
-                <Button
-                    android:id="@+id/button_nature2"
+                <TextView
+                    android:id="@+id/textView8"
                     android:layout_width="wrap_content"
-                    android:background="@drawable/active2"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:text="ЛЕКАРСТВА" />
             </LinearLayout>
 
             <LinearLayout
@@ -94,18 +115,17 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/button_sport2"
-                    android:layout_width="wrap_content"
-                    android:background="@drawable/active3"
+                    android:id="@+id/button5"
+                    android:layout_width="14dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1" />
 
-                <Button
-                    android:id="@+id/button_food"
+                <TextView
+                    android:id="@+id/textView9"
                     android:layout_width="wrap_content"
-                    android:background="@drawable/active4"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:text="Введите название" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
